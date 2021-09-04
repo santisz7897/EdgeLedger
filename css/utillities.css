@@ -1,0 +1,108 @@
+/* Text Styles */
+.text-primary {
+    color: #28a745;
+}
+
+.text-secondary {
+    color: #0284d0;
+}
+
+/* Button */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #218839;
+}
+
+.btn-primary, .bg-primary {
+    background: #28a745;
+    color: #fff;
+}
+
+.btn-secondary, .bg-secondary {
+    background: #0284d0;
+    color: #fff;
+}
+
+.btn-dark, .bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.btn-light, .bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-outline:hover {
+    /* background: #fff;
+    color: #28a745;
+    border: #28a745 1px solid; */
+    background: #218839;
+}
+
+.bg-secondary .btn-outline:hover {
+    background: #0374b6;
+}
+
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+.section-header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.section-padding {
+    padding: 20px 20px 40px;
+}
+
+.flex-grid .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.flex-columns.flex-reverse .row{
+    flex-direction: row-reverse;
+}
+
+.flex-columns.flex-normal .row {
+    flex-direction: row;
+}
